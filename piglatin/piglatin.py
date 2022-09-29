@@ -7,7 +7,7 @@ def main():
 main()
 
 
-de piglatinify(word):
+def piglatinify(word):
     first=word[0]
     if first in 'aeiouAEIOU':
         result=word + 'ay'
