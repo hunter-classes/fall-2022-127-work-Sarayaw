@@ -5,3 +5,14 @@ def main():
     print ()
 
 main()
+
+
+de piglatinify(word):
+    first=word[0]
+    if first in 'aeiouAEIOU':
+        result=word + 'ay'
+    else:
+        result=word[1:].capitalize()+first.lower()+'ay'
+      else:
+        result=word[1:]+first+'ay'
+    return result
